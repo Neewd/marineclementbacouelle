@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt build"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.2",
