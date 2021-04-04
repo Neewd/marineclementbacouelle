@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Didot";
+    src: local("Didot"),
+     url('~assets/fonts/Didot LT Std Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Saonara";
+    src: local("Saonara"),
+     url('~assets/fonts/Saonara 1.otf') format("opentype");
+}
