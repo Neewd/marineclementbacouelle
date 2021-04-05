@@ -244,6 +244,7 @@ export default Vue.extend({
   data() {
     return {
       authorized: false,
+      imageLocation: "/img/nous.jpg",
       password: "Show2022",
       inputPassword: '',
       saveOurDateVisible: false,
@@ -446,18 +447,15 @@ export default Vue.extend({
     }
   },
   mounted() {
-    const imageLocation = "/img/nous.jpg"
-    const heroDiv = this.$refs.heroDiv
-    console.log('heroDiv', heroDiv)
     const bgImg = new Image()
     bgImg.onload = () => {
+      const heroDiv = this.$refs.heroDiv
       heroDiv.style.backgroundImage = 'url(' + bgImg.src + ')';
       setTimeout(() => {
-      this.saveOurDateVisible = true
-    }, 250)
+        this.saveOurDateVisible = true
+      }, 250)
     };  
-    bgImg.src = imageLocation;
-
+    bgImg.src = this.imageLocation;
     
   },
   methods: {
@@ -477,7 +475,16 @@ export default Vue.extend({
       if (this.inputPassword === this.password) {
         this.wrongPassword = false
         localStorage.setItem("marineclement-authorized", 'true')
-        this.authorized = true;
+        this.authorized = true
+        const bgImg = new Image()
+        bgImg.onload = () => {
+          const heroDiv = this.$refs.heroDiv
+          heroDiv.style.backgroundImage = 'url(' + bgImg.src + ')';
+          setTimeout(() => {
+            this.saveOurDateVisible = true
+          }, 250)
+        };  
+        bgImg.src = this.imageLocation;
       } else {
         this.wrongPassword = true
         this.inputPassword = ''
