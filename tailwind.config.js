@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'hero-nous-2': "url('/img/chaux1.jpg')",
+      }),
       backgroundColor: theme => ({
         ...theme('colors'),
        }),
