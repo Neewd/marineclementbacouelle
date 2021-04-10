@@ -20,10 +20,10 @@
         </transition>
       </div>
 
-      <div class="w-full bg-white flex py-24 px-32">
+      <div class="w-full bg-white flex lg:py-24 lg:px-32 p-8">
         <div class="">
           <h1 class="text-center text-3xl mb-4 font-didot uppercase text-beige-200">Notre histoire</h1>
-          <p class="px-64 text-justify text-beige-200">
+          <p class="lg:px-64 px-8 text-justify text-beige-200">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, provident. Officiis quos distinctio sint vitae earum harum dolor ut possimus sunt. Dignissimos laborum aut eligendi debitis omnis fugiat necessitatibus maxime.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, provident. Officiis quos distinctio sint vitae earum harum dolor ut possimus sunt. Dignissimos laborum aut eligendi debitis omnis fugiat necessitatibus maxime.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, provident. Officiis quos distinctio sint vitae earum harum dolor ut possimus sunt. Dignissimos laborum aut eligendi debitis omnis fugiat necessitatibus maxime.
@@ -34,9 +34,9 @@
       </div>
 
       <intersect @enter="enterSecondHero()" @leave="leaveSecondHero()">
-        <div class="px-96 py-16 w-full flex justify-between items-center bg-beige text-white font-didot"
+        <div class="lg:px-96 lg:py-16 w-full grid lg:grid-cols-12 grid-cols-6 gap-4 p-8 bg-beige text-white font-didot"
             v-if="countdownToWeddingDate">
-            <div class="flex flex-col items-center"
+            <div class="flex flex-col items-center col-start-1 col-span-3 lg:col-start-2 lg:col-span-2"
                 v-if="countdownToWeddingDate.months">
                 <span class="text-8xl">
                   {{ countdownToWeddingDate.months | putZeroBefore }}
@@ -45,7 +45,7 @@
                   mois
                 </span>
             </div>
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center col-span-3 lg:col-span-2">
                 <span class="text-8xl">
                   {{ countdownToWeddingDate.days | putZeroBefore }}
                 </span>
@@ -53,7 +53,7 @@
                   jours
                 </span>
             </div>
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center col-span-3 lg:col-span-2">
                 <span class="text-8xl">
                   {{ countdownToWeddingDate.hours | putZeroBefore }}
                 </span>
@@ -61,7 +61,7 @@
                   heures
                 </span>
             </div>
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center col-span-3 lg:col-span-2">
                 <span class="text-8xl">
                   {{ countdownToWeddingDate.minutes | putZeroBefore }}
                 </span>
@@ -69,7 +69,7 @@
                   minutes
                 </span>
             </div>
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center col-start-2 col-span-4 lg:col-span-2">
                 <span class="text-8xl">
                   {{ countdownToWeddingDate.seconds | putZeroBefore }}
                 </span>
@@ -82,18 +82,18 @@
 
       <div class="relative flex justify-center items-center h-72 bg-hero-nous-2 bg-center bg-cover bg-no-repeat"></div>
 
-      <div class="p-8 flex">
-        <div class="bg-beige-200 w-1/3 h-96 flex justify-center items-center">
-          <h1 class="font-didot uppercase text-6xl text-white">
+      <div class="lg:p-8 p-6 flex lg:flex-row flex-col">
+        <div class="bg-beige-200 w-full lg:w-1/3 lg:h-96 h-64 flex justify-center items-center">
+          <h1 class="font-didot uppercase text-4xl lg:text-6xl text-white">
             Lieu, <br> 
             <span class="relative">
-              programme <span class="text-beige text-8xl absolute bottom-0"> & </span>
+              programme <span class="text-beige text-6xl lg:text-8xl absolute bottom-0"> & </span>
             </span>
             <br> hébergement
           </h1> 
         </div>
-        <div class="w-2/3  flex">
-            <div class="flex-1 flex justify-center items-center flex-col">
+        <div class="lg:w-2/3  flex lg:flex-row flex-col py-6">
+            <div class="flex-1 flex justify-center items-center flex-col mb-6">
               <svg class="w-24 h-24 text-beige-200 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
               <p class="text-beige-500 text-center">
                 Domaine de la chaux <br>
@@ -101,7 +101,7 @@
                 Bourgogne
               </p>
             </div>
-            <div class="flex justify-center items-center flex-col flex-1">
+            <div class="flex justify-center items-center flex-col flex-1 mb-6">
               <svg class="w-24 h-24 text-beige-200 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
               <p class="text-beige-500 text-center">
                 Cérémonie, cocktail, <br>
@@ -109,7 +109,7 @@
                 sur place
               </p>
             </div>
-            <div class="flex justify-center items-center flex-col flex-1">
+            <div class="flex justify-center items-center flex-col flex-1 mb-6">
               <svg class="w-24 h-24 text-beige-200 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
               <p class="text-beige-500 text-center">
                 60 couchages sur place, <br>
@@ -201,7 +201,7 @@
 
       <footer class="bg-white">
         <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 flex justify-center items-center lg:px-8">
-          <div class="mt-8 md:mt-0 md:order-1">
+          <div class="lg:mt-8 md:mt-0 md:order-1">
             <p class="text-center text-base text-beige-500">
               &copy; 2021 - Fait avec amour par Marine & Clément 
             </p>
@@ -218,7 +218,7 @@
         </h1>
         <div>
           <div class="mt-1">
-            <input v-model="inputPassword" type="password" name="password" id="password" class="mb-4 shadow-sm focus:ring-beige-500 focus:border-beige-500 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="totoenslip123" aria-describedby="password-description">
+            <input v-model="inputPassword" v-on:keyup="validatePassword" type="password" name="password" id="password" class="mb-4 shadow-sm focus:ring-beige-500 focus:border-beige-500 block w-full sm:text-sm border-gray-300 rounded-md" placeholder="On vous aime !" aria-describedby="password-description">
           </div>
           <div v-if="wrongPassword" class="mb-4 -mt-2">
             Mauvais mot de passe
@@ -489,6 +489,12 @@ export default Vue.extend({
         this.wrongPassword = true
         this.inputPassword = ''
       }
+    },
+
+    validatePassword(event) {
+      if (event.keyCode === 13) {
+        this.enterInRestrictedArea();
+      }  
     }
   },
   filters: {
