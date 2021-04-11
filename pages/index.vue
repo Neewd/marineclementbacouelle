@@ -24,17 +24,16 @@
         <div class="">
           <h1 class="text-center text-3xl mb-4 font-didot uppercase text-beige-200">Notre histoire</h1>
           <p class="lg:px-64 px-8 text-justify text-beige-200">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, provident. Officiis quos distinctio sint vitae earum harum dolor ut possimus sunt. Dignissimos laborum aut eligendi debitis omnis fugiat necessitatibus maxime.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, provident. Officiis quos distinctio sint vitae earum harum dolor ut possimus sunt. Dignissimos laborum aut eligendi debitis omnis fugiat necessitatibus maxime.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, provident. Officiis quos distinctio sint vitae earum harum dolor ut possimus sunt. Dignissimos laborum aut eligendi debitis omnis fugiat necessitatibus maxime.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, provident. Officiis quos distinctio sint vitae earum harum dolor ut possimus sunt. Dignissimos laborum aut eligendi debitis omnis fugiat necessitatibus maxime.
-          
+            Toute l'histoire à commencer à la fin de l'été 2013, nous étions étudiants dans des branches qui ne se rencontrent habituellement jamais. Sans compter ce petit coup de pouce du destin, car nous étions tous les deux locataires d'une villa de 20m² sur les hauteurs de Pantin.
+            Et depuis ce temps là, nous avons vécu les 400 coups, en France et en dehors mais toujours étape par étape. Premièrement nous décidâmes d'emmenager ensemble, dans un appartement un peu plus grand à Tolbiac - Chinatown, où nous sommes restés 5 ans et que bon nombre d'entre vous ont déjà visités.
+            Même si la vie de locataire est très attrayante nous en avions un peu marre de "jeter l'argent par les fenêtres" et on à décider d'acheter notre premier appartement, ensemble à Issy-les-moules. Avec le plus de travaux possible, histoire de tout casser et de tout refaire à notre image, 
+            enfin surtout à l'image de Marine, car on va pas se mentir, Clément n'a pas imaginé grand chose là dedans. Le 23 Décembre 2020 sonna le début d'une nouvelle étape, puisque nous nous sommes fiancés, et si vous êtes sur ce site, c'est car vous êtes conviés à venir faire la fête avec nous le 16 Juillet 2022 à Alligny-en-Morvan.
           </p>
         </div>
       </div>
 
       <intersect @enter="enterSecondHero()" @leave="leaveSecondHero()">
-        <div class="lg:px-96 lg:py-16 w-full grid lg:grid-cols-12 grid-cols-6 gap-4 p-8 bg-beige text-white font-didot"
+        <div class="lg:px-72 lg:py-16 w-full grid lg:grid-cols-12 grid-cols-6 gap-4 p-8 bg-beige text-white font-didot"
             v-if="countdownToWeddingDate">
             <div class="flex flex-col items-center col-start-1 col-span-3 lg:col-start-2 lg:col-span-2"
                 v-if="countdownToWeddingDate.months">
@@ -80,7 +79,7 @@
         </div>
       </intersect>
 
-      <div class="relative flex justify-center items-center h-72 bg-hero-nous-2 bg-center bg-cover bg-no-repeat"></div>
+      <div class="relative flex justify-center items-center h-72 lg:h-128 bg-hero-nous-2 bg-center bg-cover bg-no-repeat"></div>
 
       <div class="lg:p-8 p-6 flex lg:flex-row flex-col">
         <div class="bg-beige-200 w-full lg:w-1/3 lg:h-96 h-64 flex justify-center items-center">
@@ -132,7 +131,7 @@
 
       <div class="bg-beige-800">
         <div class="max-w-7xl mx-auto py-12 px-4 divide-y-2 divide-beige sm:px-6 lg:py-16 lg:px-8">
-          <h2 class="text-3xl text-beige-500 font-saonara sm:text-4xl text-white">
+          <h2 class="text-3xl text-beige-500 font-saonara sm:text-4xl">
             Les questions que vous allez nous poser...
           </h2>
           <div class="mt-6">
@@ -144,7 +143,7 @@
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
                     Le plus simple est de venir en <b>voiture</b>, le lieu n'est pas accessible, ni en montgolfière, ni en deltaplane.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis repudiandae non cumque consequuntur molestiae facere quam tempore quae eaque consequatur perferendis similique nihil, vero dolores, reiciendis expedita nam ea.
+                    Il est possible de faire une portion en train puis de venir en taxi ou en voiture. 
                   </p>
                 </dd>
               </div>
@@ -159,7 +158,7 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse repellat officiis id ducimus debitis doloremque vitae velit neque! Porro, cupiditate amet. Dignissimos blanditiis atque eligendi ipsam doloribus quas. Facere, id.
+                    60 couchages sont présents sur site (lits simples, doubles et dortoirs), mais évidemment si vous préférez votre propre logement, vous pouvez chercher sur <a class="underline font-bold" target="_blank" href="https://www.airbnb.fr/s/Alligny~en~Morvan--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=may&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&checkin=2021-07-16&checkout=2021-07-18&adults=2&source=structured_search_input_header&search_type=unknown&ne_lat=47.298377763882684&ne_lng=4.292738593750016&sw_lat=47.12229522594573&sw_lng=4.018080390625016&zoom=12&search_by_map=true&query=Alligny-en-Morvan%2C%20France&place_id=ChIJr6dk5TYb8kcRIIwQszTOCQQ">ce site</a> ou encore <a class="underline font-bold" target="_blank" href="https://www.booking.com/searchresults.fr.html?aid=397594&label=gog235jc-1DCAEoggI46AdIDVgDaE2IAQGYAQ24AQfIAQzYAQPoAQH4AQKIAgGoAgO4Apjwy4MGwAIB0gIkYjZlODI0YzktNGFjYS00OTczLTk3NmEtZDcyMDhhZTY3ZDFh2AIE4AIB&lang=fr&sid=2218cdea4769770000e7ddd9feec57cb&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.fr.html%3Faid%3D397594%3Blabel%3Dgog235jc-1DCAEoggI46AdIDVgDaE2IAQGYAQ24AQfIAQzYAQPoAQH4AQKIAgGoAgO4Apjwy4MGwAIB0gIkYjZlODI0YzktNGFjYS00OTczLTk3NmEtZDcyMDhhZTY3ZDFh2AIE4AIB%3Bsid%3D2218cdea4769770000e7ddd9feec57cb%3Bsb_price_type%3Dtotal%26%3B&ss=Alligny-en-Morvan%2C+Bourgogne%2C+France&is_ski_area=&checkin_year=2021&checkin_month=7&checkin_monthday=16&checkout_year=2021&checkout_month=7&checkout_monthday=18&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Alligny-en-mor&ac_position=0&ac_langcode=fr&ac_click_type=b&dest_id=-1407194&dest_type=city&place_id_lat=47.20023&place_id_lon=4.177&search_pageview_id=fc975e0c43a90142&search_selected=true&search_pageview_id=fc975e0c43a90142&ac_suggestion_list_length=3&ac_suggestion_theme_list_length=0#map_closed">celui-là</a>
                   </p>
                 </dd>
               </div>
@@ -174,7 +173,8 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corporis repudiandae non cumque consequuntur molestiae facere quam tempore quae eaque consequatur perferendis similique nihil, vero dolores, reiciendis expedita nam ea.
+                    Même si tout n'est pas encore défini et risque de changer d'ici là, la cérémonie laïque aurait lieu à 17h, suivi du cocktail aux alentours de 18h30, et un diner assis à partir de 20h30. 
+                    Le lendemain, nous aurons le plaisir de vous accueillir pour un brunch en toute simplicité.
                   </p>
                 </dd>
               </div>
@@ -189,7 +189,7 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Le plus simple est de venir faire la fête avec nous,
+                    Le plus simple est de venir faire la fête avec nous, pour une liste, nous verrons ça plus tard. 
                   </p>
                 </dd>
               </div>
@@ -258,11 +258,8 @@ export default Vue.extend({
   "elementType": "geometry",
   "stylers": [
     {
-      "color": "#e8ded4"
+      "color": "#ffffff"
     },
-    {
-      "lightness": -20
-    }
   ]
 },
 {

@@ -18,6 +18,10 @@ module.exports = {
         'beige-200': '#c9b19a',
         'beige-500': '#906f4d',
         'beige-800': '#f9f6f4'
+      },
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
       }
     },
   },
