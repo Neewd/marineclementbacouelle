@@ -24,10 +24,10 @@
         <div class="">
           <h1 class="text-center text-3xl mb-4 font-didot uppercase text-beige-200">Notre histoire</h1>
           <p class="lg:px-64 px-8 text-justify text-beige-200">
-            Toute l'histoire à commencer à la fin de l'été 2013, nous étions étudiants dans des branches qui ne se rencontrent habituellement jamais. Sans compter ce petit coup de pouce du destin, car nous étions tous les deux locataires d'une villa de 20m² sur les hauteurs de Pantin.
-            Et depuis ce temps là, nous avons vécu les 400 coups, en France et en dehors mais toujours étape par étape. Premièrement nous décidâmes d'emmenager ensemble, dans un appartement un peu plus grand à Tolbiac - Chinatown, où nous sommes restés 5 ans et que bon nombre d'entre vous ont déjà visités.
-            Même si la vie de locataire est très attrayante nous en avions un peu marre de "jeter l'argent par les fenêtres" et on à décider d'acheter notre premier appartement, ensemble à Issy-les-moules. Avec le plus de travaux possible, histoire de tout casser et de tout refaire à notre image, 
-            enfin surtout à l'image de Marine, car on va pas se mentir, Clément n'a pas imaginé grand chose là dedans. Le 23 Décembre 2020 sonna le début d'une nouvelle étape, puisque nous nous sommes fiancés, et si vous êtes sur ce site, c'est car vous êtes conviés à venir faire la fête avec nous le 16 Juillet 2022 à Alligny-en-Morvan.
+            Notre histoire a commencé à la fin de l'été 2013, nous étions alors étudiants dans des branches qui ne se rencontrent habituellement jamais. C’est sans compter ce petit coup de pouce du destin, nous étions tous les deux locataires d'une villa de 20m² sur les hauteurs de Pantin. 
+            Depuis ce temps-là, nous avons vécu les 400 coups, en France et à l’étranger mais toujours étape par étape. Premièrement nous avons décidé d'emménager ensemble, dans un appartement un peu plus grand à Tolbiac alias Chinatown, où nous sommes restés 5 ans et que bon nombre d'entre vous ont déjà visités. Même si la vie de locataire était très attrayante nous en avions un peu marre de "jeter notre argent par les fenêtres" et nous avons alors décidé d'acheter notre premier appartement, ensemble à Issy-les-Moulineaux, alias Issy-les-moules. Evidemment avec le plus de travaux possible, histoire de tout casser et de tout refaire à notre image, enfin surtout à l'image de Marine, car on ne va pas se mentir, Clément a surtout acquiescé toutes ses idées. 
+            Le 23 Décembre 2020 sonna le début d'une nouvelle étape, et quelle étape puisque nous nous sommes fiancés; et si vous êtes sur ce site, c'est que vous êtes conviés à venir faire la fête jusqu’au bout de la nuit avec nous le 16 Juillet 2022 à Alligny-en-Morvan, Bourgogne. 
+            On vous embrasse
           </p>
         </div>
       </div>
@@ -103,8 +103,8 @@
             <div class="flex justify-center items-center flex-col flex-1 mb-6">
               <svg class="w-24 h-24 text-beige-200 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
               <p class="text-beige-500 text-center">
-                Cérémonie, cocktail, <br>
-                repas et brunch du lendemain <br>
+                Cérémonie laïque, cocktail, <br>
+                repas et soirée. Brunch du lendemain <br>
                 sur place
               </p>
             </div>
@@ -142,8 +142,8 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Le plus simple est de venir en <b>voiture</b>, le lieu n'est pas accessible, ni en montgolfière, ni en deltaplane.
-                    Il est possible de faire une portion en train puis de venir en taxi ou en voiture. 
+                   Le plus simple est de venir en <b>voiture</b>. Le lieu n'est accessible, ni en montgolfière, ni en deltaplane. Il est possible cependant de faire une portion en train puis de venir en taxi ou en voiture.
+                    Amis parisiens, nous pouvons vous mettre en contact pour du covoiturage si vous n’avez pas de voiture. 
                   </p>
                 </dd>
               </div>
@@ -158,7 +158,7 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    60 couchages sont présents sur site (lits simples, doubles et dortoirs), mais évidemment si vous préférez votre propre logement, vous pouvez chercher sur <a class="underline font-bold" target="_blank" href="https://www.airbnb.fr/s/Alligny~en~Morvan--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=may&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&checkin=2021-07-16&checkout=2021-07-18&adults=2&source=structured_search_input_header&search_type=unknown&ne_lat=47.298377763882684&ne_lng=4.292738593750016&sw_lat=47.12229522594573&sw_lng=4.018080390625016&zoom=12&search_by_map=true&query=Alligny-en-Morvan%2C%20France&place_id=ChIJr6dk5TYb8kcRIIwQszTOCQQ">ce site</a> ou encore <a class="underline font-bold" target="_blank" href="https://www.booking.com/searchresults.fr.html?aid=397594&label=gog235jc-1DCAEoggI46AdIDVgDaE2IAQGYAQ24AQfIAQzYAQPoAQH4AQKIAgGoAgO4Apjwy4MGwAIB0gIkYjZlODI0YzktNGFjYS00OTczLTk3NmEtZDcyMDhhZTY3ZDFh2AIE4AIB&lang=fr&sid=2218cdea4769770000e7ddd9feec57cb&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.fr.html%3Faid%3D397594%3Blabel%3Dgog235jc-1DCAEoggI46AdIDVgDaE2IAQGYAQ24AQfIAQzYAQPoAQH4AQKIAgGoAgO4Apjwy4MGwAIB0gIkYjZlODI0YzktNGFjYS00OTczLTk3NmEtZDcyMDhhZTY3ZDFh2AIE4AIB%3Bsid%3D2218cdea4769770000e7ddd9feec57cb%3Bsb_price_type%3Dtotal%26%3B&ss=Alligny-en-Morvan%2C+Bourgogne%2C+France&is_ski_area=&checkin_year=2021&checkin_month=7&checkin_monthday=16&checkout_year=2021&checkout_month=7&checkout_monthday=18&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Alligny-en-mor&ac_position=0&ac_langcode=fr&ac_click_type=b&dest_id=-1407194&dest_type=city&place_id_lat=47.20023&place_id_lon=4.177&search_pageview_id=fc975e0c43a90142&search_selected=true&search_pageview_id=fc975e0c43a90142&ac_suggestion_list_length=3&ac_suggestion_theme_list_length=0#map_closed">celui-là</a>
+                    60 couchages sont pré-réservés sur le lieu du mariage (lits simples, doubles et dortoirs) donc n’hésitez pas à revenir vers nous si vous êtes intéressés. mais évidemment si vous préférez votre propre logement, vous pouvez chercher sur <a class="underline font-bold" target="_blank" href="https://www.airbnb.fr/s/Alligny~en~Morvan--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=may&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&checkin=2021-07-16&checkout=2021-07-18&adults=2&source=structured_search_input_header&search_type=unknown&ne_lat=47.298377763882684&ne_lng=4.292738593750016&sw_lat=47.12229522594573&sw_lng=4.018080390625016&zoom=12&search_by_map=true&query=Alligny-en-Morvan%2C%20France&place_id=ChIJr6dk5TYb8kcRIIwQszTOCQQ">ce site</a> ou encore <a class="underline font-bold" target="_blank" href="https://www.booking.com/searchresults.fr.html?aid=397594&label=gog235jc-1DCAEoggI46AdIDVgDaE2IAQGYAQ24AQfIAQzYAQPoAQH4AQKIAgGoAgO4Apjwy4MGwAIB0gIkYjZlODI0YzktNGFjYS00OTczLTk3NmEtZDcyMDhhZTY3ZDFh2AIE4AIB&lang=fr&sid=2218cdea4769770000e7ddd9feec57cb&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.fr.html%3Faid%3D397594%3Blabel%3Dgog235jc-1DCAEoggI46AdIDVgDaE2IAQGYAQ24AQfIAQzYAQPoAQH4AQKIAgGoAgO4Apjwy4MGwAIB0gIkYjZlODI0YzktNGFjYS00OTczLTk3NmEtZDcyMDhhZTY3ZDFh2AIE4AIB%3Bsid%3D2218cdea4769770000e7ddd9feec57cb%3Bsb_price_type%3Dtotal%26%3B&ss=Alligny-en-Morvan%2C+Bourgogne%2C+France&is_ski_area=&checkin_year=2021&checkin_month=7&checkin_monthday=16&checkout_year=2021&checkout_month=7&checkout_monthday=18&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Alligny-en-mor&ac_position=0&ac_langcode=fr&ac_click_type=b&dest_id=-1407194&dest_type=city&place_id_lat=47.20023&place_id_lon=4.177&search_pageview_id=fc975e0c43a90142&search_selected=true&search_pageview_id=fc975e0c43a90142&ac_suggestion_list_length=3&ac_suggestion_theme_list_length=0#map_closed">celui-là</a>
                   </p>
                 </dd>
               </div>
@@ -173,8 +173,8 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Même si tout n'est pas encore défini et risque de changer d'ici là, la cérémonie laïque aurait lieu à 17h, suivi du cocktail aux alentours de 18h30, et un diner assis à partir de 20h30. 
-                    Le lendemain, nous aurons le plaisir de vous accueillir pour un brunch en toute simplicité.
+                    Malgré notre organisation légendaire, il est encore un peu tôt pour vous donner le programme. 
+                    Cependant, nous pouvons déjà vous dire que tout se déroulera sur place, de la cérémonie laïque le samedi en milieu d’après-midi suivi du cocktail, du dîner et de la soirée. Nous aurons également le plaisir de vous accueillir pour un brunch en toute simplicité le lendemain.
                   </p>
                 </dd>
               </div>
@@ -189,7 +189,8 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Le plus simple est de venir faire la fête avec nous, pour une liste, nous verrons ça plus tard. 
+                    Le plus simple et ce qui nous fera le plus plaisir c’est tout d’abord si vous acceptez notre invitation et venez célébrez notre amour en faisant la fête avec nous. Pour une liste, nous verrons ça plus tard !
+
                   </p>
                 </dd>
               </div>
@@ -245,7 +246,7 @@ export default Vue.extend({
     return {
       authorized: false,
       imageLocation: "/img/nous.jpg",
-      password: "Show2022",
+      password: "premierseptembre",
       inputPassword: '',
       saveOurDateVisible: false,
       options: {
