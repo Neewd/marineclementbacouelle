@@ -9,9 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.3.2",
+    "@nuxtjs/firebase": "^8.2.2",
+    "@tailwindcss/forms": "^0.4.0",
     "core-js": "^3.9.1",
     "countdown": "^2.6.0",
+    "firebase": "^9.6.5",
     "nuxt": "^2.15.3",
     "vue-intersect": "^1.1.6",
     "vue-loader": "^15.9.6",
@@ -21,6 +23,7 @@
     "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/tailwindcss": "^4.0.3",
+    "@tailwindcss/custom-forms": "^0.2.1",
     "@tailwindcss/postcss7-compat": "^2.0.4",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",

@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div v-if="authorized">
+    <div v-if="authorized || authorizedFriday">
       <div class="relative flex justify-center items-center h-screen bg-center bg-cover bg-no-repeat"
             ref="heroDiv">
         <transition 
@@ -81,6 +81,13 @@
 
       <div class="relative flex justify-center items-center h-72 lg:h-128 bg-hero-nous-2 bg-center bg-cover bg-no-repeat"></div>
 
+      <div class="flex items-center justify-center py-4 bg-beige-200 text-white text-xl font-didot"> 
+        <span class="mr-1">
+           RSVP :  
+        </span> Nous attendons votre réponse avec impatience et nous avons d'ailleurs quelques questions pour vous
+        <NuxtLink  class="font-bold underline ml-2" to="/rsvp">ici</NuxtLink>
+      </div>
+
       <div class="lg:p-8 p-6 flex lg:flex-row flex-col">
         <div class="bg-beige-200 w-full lg:w-1/3 lg:h-96 h-64 flex justify-center items-center">
           <h1 class="font-didot uppercase text-4xl lg:text-6xl text-white">
@@ -99,13 +106,14 @@
                 Alligny en Morvan <br>
                 Bourgogne
               </p>
-            </div>
+            </div> 
+
             <div class="flex justify-center items-center flex-col flex-1 mb-6">
-              <svg class="w-24 h-24 text-beige-200 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+              <svg  class="w-24 h-24 text-beige-200 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
               <p class="text-beige-500 text-center">
-                Cérémonie laïque, cocktail, <br>
-                repas et soirée. Brunch du lendemain <br>
-                sur place
+                Répondez nous au plus vite et  <br> au plus tard le <b>1er mai 2022</b>,  <br> après merci d'apporter votre sandwich
               </p>
             </div>
             <div class="flex justify-center items-center flex-col flex-1 mb-6">
@@ -116,6 +124,32 @@
                 pour plus d'informations
               </p>
             </div>
+        </div>
+      </div>
+      <div class="bg-beige-800 flex items-center"
+        v-bind:class="{'px-72': authorizedFriday, 'px-32': !authorizedFriday}">
+        <div class="text-9xl text-beige font-didot"  v-if="!authorizedFriday">
+          15
+        </div>
+        <div  v-if="!authorizedFriday"
+          class="max-w-7xl mx-auto py-12 px-4 divide-y-2 divide-beige sm:px-6 lg:py-24 lg:px-8 -ml-12 text-justify text-beige-500">
+          Pour notre day before nous serons ravis de vous <br> avoir avec nous pour (de)stresser avant le grand jour.  <br>
+          Vous êtes les bienvenus à partir de 14h. 
+        </div>
+
+        <div class="text-9xl text-beige font-didot">
+          16
+        </div>
+        <div class="max-w-7xl mx-auto py-12 px-4 divide-y-2 divide-beige sm:px-6 lg:py-16 lg:px-8 -ml-12 text-justify text-beige-500">
+          Cérémonie laïque aux pieds des séquoïas, <br>suivi d'un cocktail
+          autour d'un spritz, d'un diner <br> et d'une fête jusqu'au bout de la nuit.
+        </div>
+        <div class="text-9xl text-beige font-didot">
+          17
+        </div>
+        <div class="max-w-7xl mx-auto py-12 px-4 divide-y-2 divide-beige sm:px-6 lg:py-16 lg:px-8 -ml-12 text-justify text-beige-500">
+          Nous serons ravis de vous revoir autour <br>d'un déjeuner sur l'herbe, à partir de 11h. <br>
+          Hangover kits en libre service.
         </div>
       </div>
 
@@ -143,13 +177,16 @@
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
                    Le plus simple est de venir en <b>voiture</b>. Le lieu n'est accessible, ni en montgolfière, ni en deltaplane. Il est possible cependant de faire une portion en train puis de venir en taxi ou en voiture.
-                    Amis parisiens, nous pouvons vous mettre en contact pour du covoiturage si vous n’avez pas de voiture. 
+                    Amis parisiens, nous pouvons vous mettre en contact pour du covoiturage si vous n’avez pas de voiture.
+                    <br>
+                  
+                    Un parking est disponible sur place et pourra accueillir toutes les voitures sans souci.
                   </p>
                 </dd>
               </div>
             </dl>
           </div>
-
+          
           <div class="mt-6">
             <dl class="space-y-8 divide-y divide-gray-200">
               <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
@@ -165,16 +202,34 @@
             </dl>
           </div>
 
+
           <div class="mt-6">
             <dl class="space-y-8 divide-y divide-gray-200">
               <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
                 <dt class="text-base font-medium text-beige-200 md:col-span-5">
-                  Quel sera le programme du week-end ?
+                  Les enfants sont-ils conviés ?
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Malgré notre organisation légendaire, il est encore un peu tôt pour vous donner le programme. 
-                    Cependant, nous pouvons déjà vous dire que tout se déroulera sur place, de la cérémonie laïque le samedi en milieu d’après-midi suivi du cocktail, du dîner et de la soirée. Nous aurons également le plaisir de vous accueillir pour un brunch en toute simplicité le lendemain.
+                    Nous avons décidés de faire de notre mariage un évènement réservés aux adultes.
+                    <br>
+                    Cependant, les enfants sont plus que bienvenus au brunch du lendemain.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="mt-6">
+            <dl class="space-y-8 divide-y divide-gray-200">
+              <div class="pt-6 md:grid md:grid-cols-12 md:gap-8">
+                <dt class="text-base font-medium text-beige-200 md:col-span-5">
+                  Y a-t-il un dress code ?  
+                </dt>
+                <dd class="mt-2 md:mt-0 md:col-span-7">
+                  <p class="text-base text-beige-500">
+                    Pour des raisons évidentes, la tenue blanche est réservée exclusivement à la mariée, sauf si vous voulez vous attirez des problèmes.
+                    Plus sérieusement, il n'y a pas de dress code particulier, on sait que vous serez les plus beaux.
                   </p>
                 </dd>
               </div>
@@ -189,12 +244,11 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-                    Le plus simple et ce qui nous fera le plus plaisir c’est tout d’abord si vous acceptez notre invitation et venez célébrez notre amour en faisant la fête avec nous. Pour une liste, nous verrons ça plus tard !
-
+                    Votre présence et votre amour sera le plus beau cadeau de tous. <br>
+                    Mais pour ceux qui le souhaitent, vous pouvez trouvez notre liste de mariage <a href="https://www.millemercismariage.com/marineclementbac/liste.html" class="underline font-bold">ici</a>.
                   </p>
                 </dd>
               </div>
-
             </dl>
           </div>
         </div>
@@ -204,7 +258,7 @@
         <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 flex justify-center items-center lg:px-8">
           <div class="lg:mt-8 md:mt-0 md:order-1">
             <p class="text-center text-base text-beige-500">
-              &copy; 2021 - Fait avec amour par Marine & Clément 
+              &copy; 2021 - 2022 - Fait avec amour par Marine & Clément 
             </p>
           </div>
         </div>
@@ -245,8 +299,10 @@ export default Vue.extend({
   data() {
     return {
       authorized: false,
+      authorizedFriday: false,
       imageLocation: "/img/nous.jpg",
-      password: "premierseptembre",
+      password: "16juillet",
+      passwordFriday: "withlove",
       inputPassword: '',
       saveOurDateVisible: false,
       options: {
@@ -440,7 +496,10 @@ export default Vue.extend({
   },
   beforeMount() {
     setInterval(this.computeCountdown, 1000)
-    if (localStorage.getItem('marineclement-authorized')) {
+    if (localStorage.getItem('marineclement-authorizedNewVersion')) {
+      this.authorized = true
+    }
+        if (localStorage.getItem('marineclement-authorizedNewVersion')) {
       this.authorized = true
     }
   },
@@ -470,10 +529,16 @@ export default Vue.extend({
     },
 
     enterInRestrictedArea() {
-      if (this.inputPassword === this.password) {
+      if (this.inputPassword === this.password || this.inputPassword === this.passwordFriday) {
         this.wrongPassword = false
-        localStorage.setItem("marineclement-authorized", 'true')
-        this.authorized = true
+        if (this.inputPassword === this.password) {
+          localStorage.setItem("marineclement-authorizedNewVersion", 'true')
+          this.authorized = true
+        }
+        if (this.inputPassword === this.passwordFriday) {
+          localStorage.setItem("marineclement-authorizedFriday", 'true')
+          this.authorizedFriday = true
+        }
         const bgImg = new Image()
         bgImg.onload = () => {
           const heroDiv = this.$refs.heroDiv

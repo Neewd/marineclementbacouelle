@@ -22,6 +22,10 @@ module.exports = {
       spacing: {
         '128': '32rem',
         '144': '36rem',
+      },
+      fontSize: {
+        '8xl': '6rem',
+        '9xl': '7rem',
       }
     },
   },
