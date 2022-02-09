@@ -1,9 +1,6 @@
 <template>
-    <div class="px-64 h-screen bg-beige flex items-center justify-center">
-
-
+    <div class="lg:h-screen lg:px-64 sm:py-12 sm:px-8 h-full bg-beige flex items-center justify-center py-8">
             <div aria-live="assertive" class="fixed inset-0 flex items-end px-4 py-6 pointer-events-none sm:p-6 sm:items-start"
-               
             >
                 <transition
                     enter-class="transform ease-out duration-300 transition"
