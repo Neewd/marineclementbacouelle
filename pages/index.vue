@@ -25,7 +25,7 @@
           <h1 class="text-center text-3xl mb-4 font-didot uppercase text-beige-200">Notre histoire</h1>
           <p class="lg:px-64 px-8 text-justify text-beige-200">
             Notre histoire a commencé à la fin de l'été 2013, nous étions alors étudiants dans des branches qui ne se rencontrent habituellement jamais. C’est sans compter ce petit coup de pouce du destin, nous étions tous les deux locataires d'une villa de 20m² sur les hauteurs de Pantin. 
-            Depuis ce temps-là, nous avons vécu les 400 coups, en France et à l’étranger mais toujours étape par étape. Premièrement nous avons décidé d'emménager ensemble, dans un appartement un peu plus grand à Tolbiac alias Chinatown, où nous sommes restés 5 ans et que bon nombre d'entre vous ont déjà visité. Même si la vie de locataire était très attrayante nous en avions un peu marre de "jeter notre argent par les fenêtres" et nous avons alors décidé d'acheter notre premier appartement, ensemble à Issy-les-Moulineaux, alias Issy-les-moules. Evidemment avec le plus de travaux possible, histoire de tout casser et de tout refaire à notre image, enfin surtout à l'image de Marine, car on ne va pas se mentir, Clément a surtout approuvé toutes ses idées. 
+            Depuis ce temps-là, nous avons vécu les 400 coups, en France et à l’étranger mais toujours étape par étape. Premièrement nous avons décidés d'emménager ensemble, dans un appartement un peu plus grand à Tolbiac alias Chinatown, où nous sommes restés 5 ans et que bon nombre d'entre vous ont déjà visité. Même si la vie de locataire était très attrayante nous en avions un peu marre de "jeter notre argent par les fenêtres" et nous avons alors décidé d'acheter notre premier appartement, ensemble à Issy-les-Moulineaux, alias Issy-les-moules. Evidemment avec le plus de travaux possible, histoire de tout casser et de tout refaire à notre image, enfin surtout à l'image de Marine, car on ne va pas se mentir, Clément a surtout approuvé toutes ses idées. 
             Le 23 Décembre 2020 sonna le début d'une nouvelle étape, et quelle étape puisque nous nous sommes fiancés; et si vous êtes sur ce site, c'est que vous êtes conviés à venir faire la fête jusqu’au bout de la nuit avec nous le 16 Juillet 2022 à Alligny-en-Morvan, Bourgogne. 
             On vous embrasse
           </p>
@@ -228,12 +228,8 @@
                 </dt>
                 <dd class="mt-2 md:mt-0 md:col-span-7">
                   <p class="text-base text-beige-500">
-<<<<<<< HEAD
                     Pour des raisons évidentes, la tenue blanche est réservée exclusivement à la mariée, sauf si vous voulez vous attirez des problèmes.
                     Plus sérieusement, il n'y a pas de dress code particulier, on sait que vous serez les plus beaux.
-=======
-                    Le plus simple et ce qui nous fera le plus plaisir c’est d'abord votre présence pour célébrer notre amour en faisant la fête avec nous. Pour une liste, nous verrons ça plus tard !
->>>>>>> 2647e5c37fecddff7a69d624213ffa7124deb949
                   </p>
                 </dd>
               </div>
