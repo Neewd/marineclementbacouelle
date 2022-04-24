@@ -153,34 +153,6 @@
                             </div>
                         </div>
                     </fieldset>
-                    <fieldset class="mt-6 pt-4">
-                        <div>
-                            <legend class="text-base font-medium text-beige-500">
-                            Êtes-vous intéressé par un logement sur place :
-                            </legend>
-                            <p class="text-sm text-beige-500">(35€ / personne / nuit)</p>
-                        </div>
-                        <div class="mt-4 space-y-4">
-                            <div class="relative flex items-start"
-                                v-if="this.authorizedFriday"
-                            >
-                                <div class="flex items-center h-5">
-                                    <input id="bedsFriday" name="bedsFriday" type="checkbox" v-model="bedsInterest.fridayEvening" class="focus:ring-beige-500 h-4 w-4 text-beige-500 border-beige-300 rounded">
-                                </div>
-                                <div class="ml-3 text-sm">
-                                    <label for="bedsFriday" class="font-medium text-beige-500 hover:cursor-pointer">Vendredi soir</label>
-                                </div>
-                            </div>
-                            <div class="relative flex items-start">
-                                <div class="flex items-center h-5">
-                                    <input id="bedSaturday" name="bedSaturday" type="checkbox" v-model="bedsInterest.saturdayEvening" class="focus:ring-beige-500 h-4 w-4 text-beige-500 border-beige-300 rounded">
-                                </div>
-                                <div class="ml-3 text-sm">
-                                    <label for="bedSaturday" class="font-medium text-beige-500 hover:cursor-pointer">Samedi soir</label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
                 </div>
                 <div class="sm:col-span-4 pt-4">
                     <label for="username" class="block text-sm font-medium text-beige-500">
