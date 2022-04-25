@@ -127,11 +127,11 @@
         </div>
       </div>
       <div class="bg-beige-800 flex items-center"
-        v-bind:class="{'px-72': authorizedFriday, 'px-32': !authorizedFriday}">
-        <div class="text-9xl text-beige font-didot"  v-if="!authorizedFriday">
+        v-bind:class="{'px-72': !authorizedFriday, 'px-32': authorizedFriday}">
+        <div class="text-9xl text-beige font-didot"  v-if="authorizedFriday">
           15
         </div>
-        <div  v-if="!authorizedFriday"
+        <div  v-if="authorizedFriday"
           class="max-w-7xl mx-auto py-12 px-4 divide-y-2 divide-beige sm:px-6 lg:py-24 lg:px-8 -ml-12 text-justify text-beige-500">
           Pour notre day before nous serons ravis de vous <br> avoir avec nous pour (de)stresser avant le grand jour.  <br>
           Vous êtes les bienvenus à partir de 14h. 
